@@ -1,5 +1,4 @@
 select * from Inventory
-----------------------------------------------------
 --Total Revenue--
 SELECT 
     ROUND(SUM(Units_Sold * Price),2) AS Total_Revenue
