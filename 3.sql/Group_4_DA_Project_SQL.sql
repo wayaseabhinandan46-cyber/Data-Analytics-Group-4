@@ -1,7 +1,4 @@
 select * from Inventory
----------------------------------------------------
---Find Products with 10 discount--
-select * from Inventory where Discount > 10
 ----------------------------------------------------
 --Total Revenue--
 SELECT 
