@@ -1,4 +1,8 @@
 select * from Inventory
+---------------------------------------------------
+--Find Products with 0 discount--
+select * from Inventory where Discount > 0
+----------------------------------------------------
 --Total Revenue--
 SELECT 
     ROUND(SUM(Units_Sold * Price),2) AS Total_Revenue
